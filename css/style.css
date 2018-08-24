@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: OpenSans;
+  font-family: 'OpenSans', sans-serif;
   font-size: 14px;
 }
 
@@ -12,9 +12,7 @@ p {
 }
 
 h1 {
-  font-size: 1em;
-  font-weight: bold;
-  padding-top: 1%;
+  font-size: 20px;
 }
 
 h2 {
@@ -23,10 +21,9 @@ h2 {
 }
 
 h3 {
-  font-family: Roboto;
   text-align: left;
   font-size: 1.1em;
-  padding-left: 5%;
+  padding-left: 2%;
   padding-bottom: 1%;
   padding-top: 1%;
   font-weight: 600;
@@ -37,24 +34,35 @@ h4 {
   font-size: .75em;
 }
 
+.scroll {
+  overflow: scroll;
+  height: 465px;
+}
 
 .arrow-left {
   float: left;
-  background-size: contain;
+}
+
+.fa-chevron-left {
+  font-size: 20px;
 }
 
 .statusbar {
   position: fixed;
+  background-size: contain;
 }
 
 .container {
   width: 375px;
-  height: 760px;
-  background-color: #F6F9F9;
+  height: 667px;
+  background-color: #FBFBFB;
 }
 
 .map {
-  padding-top: 16%;
+  padding-top: 20%;
+  background-image: url(../images/WashStateMap.png);
+  height: 200px;
+  background-size: cover;
 }
 
 .topbar {
@@ -85,20 +93,33 @@ h4 {
 
 
 .time {
-  width: 43%;
+  width: 33%;
+  font-size: 16px;
   text-align: right;
   float: left;
-  padding-right: 5%;
   padding-bottom: 3%;
   font-weight: bold;
 }
 
+.border {
+  width: 96%;
+  float: left;
+  padding-bottom: 3%;
+  border-bottom: 0.75px solid #B4B4B4;
+  margin-left: 2%;
+  margin-bottom: 3%;
+}
+
 .next {
-  width: 98%;
+  width: 91%;
   text-align: right;
   float: left;
-  padding-right: 3%;
-  padding-bottom: 3%;
+}
+
+.fa-chevron-right {
+  padding-top: 5%;
+  padding-left: 3%;
+  font-size: 20px;
 }
 
 .reroute {
